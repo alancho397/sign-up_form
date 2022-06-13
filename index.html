@@ -11,13 +11,18 @@
 <body>
     <div class="image">
         <img src="https://images.unsplash.com/photo-1457459686225-c7db79d4e59f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=778&q=80" alt="Bunderspitz Mountain">
-        <div class="logo"><span class="material-symbols-outlined">flag</span>HIKER</div>
+        <div class="logo">
+            <span class="material-symbols-outlined">flag</span>
+            <div class="logo-text">HIKER</div>
+        </div>
         <p class="credit">Photo by <a href="https://unsplash.com/@samsommer">Sam Sommer</a> on <a href="https://unsplash.com/">Unsplash</a></p>
     </div>
 
     <div class="page">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-        <p>You <em>know</em> you want to.</p>
+        <div class="description">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
 
         <div class="form">
             <p>Let's do this!</p>
@@ -45,12 +50,11 @@
                     <label for="confirm_password">Confirm Password</label>
                     <input type="password" id="confirm_password" minlength="6" maxlength="12" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,12}$" required>
                 </div>
-                <button type="submit">Create Account</button>
             </form>
-
-            <p>Already have an account? <a href="file:///home/alan/Repos/sign-up_form/index.html">Log In</a></p>
         </div>
 
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="file:///home/alan/Repos/sign-up_form/index.html">Log In</a></p>
     </div>
     
     <script src="script.js"></script>
