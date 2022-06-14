@@ -29,39 +29,42 @@
             <table>
                 <form action="#" method="post">
                     <tr>
-                        <td><label for="first_name"><b>First Name</b></label></td>
-                        <td><label for="last_name"><b>Last Name</b></label></td>
+                        <td><label for="firstname"><b>First Name</b></label></td>
+                        <td><label for="last-name"><b>Last Name</b></label></td>
                     </tr>
 
                     <tr>
-                        <td><input type="text" id="first_name" required></td>
-                        <td><input type="text" id="last_name" required></td>
+                        <td><input type="text" id="first-name" required></td>
+                        <td><input type="text" id="last-name" required></td>
                     </tr>
 
                     <tr>
                         <td><label for="email"><b>Email</b></label></td>
-                        <td><label for="phone_number"><b>Phone Number</b></label></td>
+                        <td><label for="phone-number"><b>Phone Number</b></label></td>
                     </tr>
                     
                     <tr>
                         <td><input type="email" id="email" required></td>
-                        <td><input type="number" id="phone_number" pattern="/\d{10}/"></td>
+                        <td><input type="number" id="phone-number" pattern="/\d{10}/"></td>
                     </tr>
 
                     <tr>
                         <td><label for="password"><b>Password</b></label></td>
-                        <td><label for="confirm_password"><b>Confirm Password</b></label></td>
+                        <td><label for="confirm-password"><b>Confirm Password</b></label></td>
                     </div>
                     
                     <tr>
                         <td><input type="password" id="password" minlength="6" maxlength="12" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,12}$" required></td>
-                        <td><input type="password" id="confirm_password" minlength="6" maxlength="12" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,12}$" required></td>
+                        <td><input type="password" id="confirm-password" minlength="6" maxlength="12" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,12}$" required></td>
+                    </tr>
+
+                    <tr>
+                        <button type="submit" name="submit-button">Create Account</button>
                     </tr>
                 </form>
             </table>
         </div>
 
-        <button type="submit" name="submit-button">Create Account</button>
         <p class="log-in">Already have an account? <a href="file:///home/alan/Repos/sign-up_form/index.html">Log In</a></p>
     </div>
     

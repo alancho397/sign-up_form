@@ -26,10 +26,11 @@ body {
 }
 
 .excerpt {
-  padding-top: 33%;
+  padding-top: 5%;
 }
 
 .form {
+  position: relative;
   font-size: 1.25rem;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 3px 3px rgb(202, 202, 202);
@@ -49,19 +50,22 @@ label, input {
 
 input {
   width: 80%;
-  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+  border: 1px solid rgb(160, 160, 160);
+  box-shadow: 1px 1px 1px rgb(202, 202, 202);
   border-radius: 4px;
   font-size: 1.1rem;
 }
 
 input:focus {
   border: 1px solid rgb(19, 152, 241);
-  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgb(202, 202, 202);
 }
 
-/*input:not(:focus):invalid {
+input:not(:focus):invalid {
   border: 1px solid rgb(255, 0, 0);
-}*/
+  box-shadow: 1px 1px 1px rgb(202, 202, 202);
+}
 
 .image {
   position: relative;
@@ -99,16 +103,19 @@ a {
 }
 
 button {
-  margin: 5vh 5vh 1vh 5vh;
   padding: 0.6rem 2rem;
   border: 0;
   border-radius: 4px;
   box-shadow: 0px 3px 3px rgb(202, 202, 202);
   background-color: rgb(109, 145, 234);
   color: rgb(255, 255, 255);
+  position: relative;
+  top: 27vh;
 }
 
 .log-in {
+  position: relative;
+  top: 7vh;
   margin-left: 5vh;
 }
 
